@@ -1,9 +1,9 @@
 # 0. getppid  
 **Write a program that prints the PID of the parent process. Run your program several times within the same shell. It should be the same. Does echo $$ print the same value? Why?**\
 checkout [parent_process.c](/parent_process.c)\
-parent process gives the same ID\
+parent process gives the same ID.\
 echo $$ gives the same ID as the parent process. This is because $$ is predefined to give the parent process ID.\
-$BASHPID gives the ID of the current process.\
+$BASHPID gives the ID of the current process.
 
 
 # 1. /proc/sys/kernel/pid_max  
