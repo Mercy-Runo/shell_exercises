@@ -17,7 +17,7 @@ checkout [maxID](/maxID)
 # 1. Read line
 ### **Write a program that prints '"$ "', wait for the user to enter a command, prints it on the next line.**
 
-#### man 3 'getline'
+#### man 3 ' getline'
 
 #### important make sure you read the man, and the RETURN VALUE section, in order to know when to stop reading Keyword: “end-of-file”, or EOF (or Ctrl+D).
 
