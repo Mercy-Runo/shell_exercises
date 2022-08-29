@@ -1,8 +1,8 @@
 # 0. getppid  
-### **Write a program that prints the PID of the parent process. Run your program several times within the same shell. It should be the same. Does echo $$ print the same value? Why?**
+### **Write a program that prints the PID of the parent process. Run your program several times within the same shell. It should be the same. Does 'echo $$' print the same value? Why?**
 checkout [parent_process.c](/parent_process.c)\
 parent process gives the same ID.\
-echo $$ gives the same ID as the parent process. This is because $$ is predefined to give the parent process ID.\
+'echo $$' gives the same ID as the parent process. This is because $$ is predefined to give the parent process ID.\
 $BASHPID gives the ID of the current process.
 
 
@@ -12,12 +12,12 @@ checkout [maxID](/maxID)
 
 
 # 0. av
-### **Write a program that prints all the arguments, without using ac.**
+### **Write a program that prints all the arguments, without using 'ac'.**
 
 # 1. Read line
-### **Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.**
+### **Write a program that prints '"$ "', wait for the user to enter a command, prints it on the next line.**
 
-#### man 3 <mark style="background-color: #FFFOO">getline</mark>
+#### man 3 'getline'
 
 #### important make sure you read the man, and the RETURN VALUE section, in order to know when to stop reading Keyword: “end-of-file”, or EOF (or Ctrl+D).
 
