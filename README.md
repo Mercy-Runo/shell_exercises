@@ -28,7 +28,7 @@ checkout [getline.c](/getline.c)
 
 <code>julien@ubuntu:\~/c/shell$ gcc -Wall -Wextra -Werror -pedantic prompt.c -o prompt<br></br>
 julien@ubuntu:\~/c/shell$ ./prompt /
-$ cat prompt.c/
+$ cat prompt.c  
 cat prompt.c/
 julien@ubuntu:~/c/shell$</code>
 
