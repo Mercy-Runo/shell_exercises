@@ -2,7 +2,7 @@
 
 /**
  * main - prints all arguments without using ac
- * @ac: number of itmes in av
+ * @ac: number of items in av
  * @av: NULL terminated array of strings
  * Return: count
  */
