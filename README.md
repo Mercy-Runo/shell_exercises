@@ -26,11 +26,11 @@ checkout [getline.c](/getline.c)
 # **advanced:**
 ### **Write your own version of <code>getline</code>.**
 
-julien@ubuntu:\~/c/shell$ gcc -Wall -Wextra -Werror -pedantic prompt.c -o prompt
-julien@ubuntu:\~/c/shell$ ./prompt
-$ cat prompt.c
-cat prompt.c
-julien@ubuntu:~/c/shell$
+<code>julien@ubuntu:\~/c/shell$ gcc -Wall -Wextra -Werror -pedantic prompt.c -o prompt/
+julien@ubuntu:\~/c/shell$ ./prompt/
+$ cat prompt.c/
+cat prompt.c/
+julien@ubuntu:~/c/shell$</code>
 
 
 # 2. command line to av
