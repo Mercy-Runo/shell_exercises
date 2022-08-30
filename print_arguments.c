@@ -9,12 +9,13 @@
 
 int main(int ac, char **av)
 {
-  int i, count;
+  int i;
+  char count;
 
   for (i = 0; av[i] != NULL; i++)
-    count = i;
+    count = av[i];
 
-  printf("%d", count);
+  printf("%s", count);
       
   return (count);
 }
