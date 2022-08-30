@@ -23,9 +23,11 @@ int main()
   }
   else
   {
-    printf("Type something: ");
+    printf("$ \n");
+    printf("Enter a command: \n");
     characters = getline(&buffer, &bufsize, stdin);
     printf("%zu characters read.\nYou typed: %s \n", characters, buffer);
+    free(buffer);
   }
   return (0);
 }

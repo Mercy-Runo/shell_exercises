@@ -13,6 +13,7 @@ checkout [maxID](/maxID)
 
 # 0. av
 ### **Write a program that prints all the arguments, without using 'ac'.**
+checkout [print_arguments.c](/print_arguments.c)
 
 # 1. Read line
 ### **Write a program that prints '"$ "', wait for the user to enter a command, prints it on the next line.**
@@ -20,6 +21,7 @@ checkout [maxID](/maxID)
 #### man 3 ' getline'
 
 #### important make sure you read the man, and the RETURN VALUE section, in order to know when to stop reading Keyword: “end-of-file”, or EOF (or Ctrl+D).
+checkout [getline.c](/getline.c)
 
 # **advanced:**
 ### **Write your own version of getline.**
