@@ -12,7 +12,7 @@ int main(int ac, char **av)
   int i, count;
 
   for (i = 0; av[i] != NULL; i++)
-    count = i + 1;
+    count = i;
 
   printf("%d", count);
       
